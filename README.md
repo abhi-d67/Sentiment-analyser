@@ -1,5 +1,3 @@
-In today’s digital age, user-generated reviews play a pivotal role in influencing buyer decisions. But with the overwhelming volume of reviews online, manually analyzing them is impossible. That’s where sentiment analysis comes into play.
-
 In this project, I’ll walk you through a mini-project where I used a pre-trained BERT model to perform sentiment analysis on Flipkart product reviews — extracting them directly from the website and predicting whether each review is positive or negative.
 
 🚀 Project Overview
