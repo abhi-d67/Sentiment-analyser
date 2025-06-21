@@ -61,9 +61,9 @@ We apply the sentiment function to each review (truncated at 512 characters due 
 df['sentiment'] = df['review'].apply(lambda x: sentiment_analyser(x[:512]))
  📊 Sample Output
 
-Review                                                                                                                Sentiment
+Review                                                                       Sentiment
 
-“Very good product. Picture quality is excellent for the price.”                      5
+“Very good product. Picture quality is excellent for the price.”                 5
 
 “Remote stopped working in a week. Poor service by brand.”                       2
 
@@ -90,6 +90,8 @@ BERT tokenization and output interpretation
 Practical applications of PyTorch models
 
 How to clean and analyze web-scraped data
+
+To test the model using your own custom reviews, run the 'Sentiment score.pynb' code from repository in your environment.
 
 
 
